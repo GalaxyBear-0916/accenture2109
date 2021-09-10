@@ -1,0 +1,376 @@
+body{
+    font-family:宋体;
+    font-weight: bold;
+}
+.margin{
+    margin: 0px auto;
+}
+.tabs{
+    width: 1001px;
+    z-index: 9996;
+    text-align: left;
+    background: rgb(87, 159, 34);
+}
+.tab{
+    float: left;
+    width: 143px;
+    line-height: 38px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    clear: none;
+}
+#myclock{
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+.tab:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+.times{
+    width: 1001px;
+    height: 44px;
+    margin-bottom: 10px;
+    background: rgb(255, 236, 219);
+}
+.time{
+    display: inline-block;
+    float: left;
+    width: 310px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+#marquee{
+    font-size: 12pt;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #ff0000
+}
+.time-title{
+    float: left;
+    width: 33%;
+    font-size: 12pt;
+    margin-top: 11px;
+    color: red;
+    font: message-box;
+    text-decoration: none;
+    font-weight: bold;
+}
+.time-details{
+    float: left;
+    width: 206px;
+    height: 22px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.time-input{
+    height: 20px;
+    font-size: 12px;
+    border: 0;
+}
+.time-button{
+    border-image: none;
+    float: right;
+    height: 20px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.time-button:hover{
+    cursor: pointer;
+}
+.slide{
+    width: 1004px;
+    height: 275px;
+    margin: 10px auto;
+}
+.slide-image{
+    float: left;
+    width: 500px;
+    height: 275px;
+}
+.slide-text{
+    float: left;
+    width:500px;
+    height: 275px;
+    border-right: solid darkgrey 1px;
+    border-bottom: solid darkgrey 1px;
+}
+.slide-text-body{
+    width:500px;
+    height: 68px;
+    border-top: solid grey 1px;
+
+}
+.slide-text-body:hover{
+    border-left: solid #ff5a00 3px;
+    color: #ff5a00;
+    background-image: url(../../img/dot.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+.slide-text-title{
+    margin-top: 15px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.slide-text-des{
+    padding-left: 20px;
+    margin-top: 8px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight:400;
+    color: gray;
+}
+.box{
+    width: 1001px;
+    height: 280px;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+    width: 655px;
+    overflow: hidden;
+}
+.text-left{
+    width: 320px;
+    overflow: hidden;
+}
+.text-head{
+    height: 35px;
+    width: 85%;
+    background: url(http://agri.dl.gov.cn/images/tabTil-bg.jpg);
+}
+.text-head-rt{
+    height: 35px;
+    width: 85%;
+    overflow: hidden;
+    background: url(http://agri.dl.gov.cn/images/tabTil-bg.jpg);
+}
+.current{
+    width: 68px;
+    height: 36px;
+    line-height: 30px;
+    padding-left: 4px;
+    margin-left: 5px;
+    font-size: 11pt;
+    color: white;
+    background: url(http://agri.dl.gov.cn/images/tab-bg.jpg) no-repeat;
+}
+
+.current-rt-one{
+    float: left;
+    width: 110px;
+    height: 40px;
+    line-height: 30px;
+    margin-left: 5px;
+    font-size: 11pt;
+    text-align: center;
+    color: white;
+    background: url(http://agri.dl.gov.cn/images/tab-bg.jpg) no-repeat;
+    background-size: 110px 35px;
+}
+.current-rt-two:hover{
+    float: left;
+    width: 110px;
+    height: 40px;
+    line-height: 30px;
+    margin-left: 5px;
+    font-size: 11pt;
+    text-align: center;
+    color: white;
+    background: url(http://agri.dl.gov.cn/images/tab-bg.jpg) no-repeat;
+    background-size: 110px 35px;
+}
+.current-rt-two{
+    float: left;
+    display: block;
+    width: 110px;
+    height: 36px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 5px;
+    font-size: 11pt;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.text-more{
+    float: right;
+    margin-top: -20px;
+    margin-right: 10px;
+    font-size: x-small;
+}
+.text-more:hover{
+    color: lightskyblue;
+    cursor: pointer;
+}
+.text-body-list{
+    float: left;
+    width: 320px;
+    height: 220px;
+}
+.text-body-line{
+    margin: 0;
+    padding: 0;
+}
+.text-body-details{
+    width: 305px;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 5px;
+    background: url(http://agri.dl.gov.cn/images/arrow_01.png) no-repeat left;
+    clear: both;
+}
+.text-body{
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    font-size:14px;
+}
+.text-body:hover{
+    color: #ff5a00;
+    cursor: pointer;
+}
+.text-body-title{
+    float:left;
+}
+.text-body-date{
+    float: right;
+    display: inline-block;
+    line-height: 30px;
+    color: gray;
+}
+.right{
+    float: left;
+    width: 320px;
+    height: 275px;
+    margin-left: 15px;
+}
+.images{
+    float: left;
+    width: 157px;
+    height: 123px;
+    margin-top: 10px;
+}
+.images:hover{
+    cursor: pointer;
+}
+.image{
+    width: 1001px;
+    margin: 5px auto;
+}
+.five-images{
+    height: 274px;
+    margin: 5px auto;
+    width: 1013px;
+    padding-left: 5px;
+
+}
+.image-part{
+    float: left;
+    width: 19%;
+    height: 267px;
+    margin: 0 5px auto
+}
+.five-images:hover{
+    cursor: pointer;
+}
+.image-part:hover{
+    cursor: pointer;
+}
+.text-part{
+    width: 1001px;
+    height: 255px;
+    margin: 5px auto;
+}
+.foot{
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 1001px;
+    overflow: hidden;
+    border-top-color: rgb(88, 160, 38);
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+.foot-first{
+    width: 1001px;
+}
+.friend{
+    display: inline-block;
+    margin-right: 140px;
+    font: normal 12px/22px å®‹ä½“;
+}
+.foot-select{
+    font-size: x-small;
+    display: inline-block;
+    color: #666666;
+}
+.foot-body{
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(88, 160, 38);
+    font: normal 12px/22px å®‹ä½“;
+}
+.foot-body-text{
+    display: inline-block;
+    margin-right: 10px;
+}
+.foot-body-text:hover{
+    cursor: pointer;
+}
+.foot-end{
+    width: 1001px;
+    font: normal 12px/22px å®‹ä½“;
+    color: rgb(0,70,142);
+}
+#foot-image-red{
+    display: inline-block;
+    height: 80px;
+}
+#foot-text{
+    display: inline-block;
+    width: 750px;
+    height: 60px;
+    line-height: 50px;
+}
+.text-home{
+     display: inline-block;
+     margin-left: 100px;
+ }
+.text-phone{
+    display: inline-block;
+    margin-left: 60px;
+}
+.text-place{
+    display: inline-block;
+    margin-left: 20px;
+}
+.text-number{
+    display: inline-block;
+    margin-left: 100px;
+}
+.text-security{
+    display: inline-block;
+    margin-left: 70px;
+}
+#foot-image-error{
+    display: inline-block;
+    height: 80px;
+}
+#foot-image-red:hover{
+    cursor: pointer;
+}
+#foot-image-error:hover{
+    cursor: pointer;
+}
