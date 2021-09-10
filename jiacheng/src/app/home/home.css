@@ -82,7 +82,7 @@ body{
     cursor: pointer;
 }
 .slide{
-    width: 1001px;
+    width: 1004px;
     height: 275px;
     margin: 10px auto;
 }
@@ -154,7 +154,7 @@ body{
     width: 68px;
     height: 36px;
     line-height: 30px;
-    padding-left: 2px;
+    padding-left: 4px;
     margin-left: 5px;
     font-size: 11pt;
     color: white;
@@ -162,6 +162,18 @@ body{
 }
 
 .current-rt-one{
+    float: left;
+    width: 110px;
+    height: 40px;
+    line-height: 30px;
+    margin-left: 5px;
+    font-size: 11pt;
+    text-align: center;
+    color: white;
+    background: url(http://agri.dl.gov.cn/images/tab-bg.jpg) no-repeat;
+    background-size: 110px 35px;
+}
+.current-rt-two:hover{
     float: left;
     width: 110px;
     height: 40px;
@@ -258,15 +270,17 @@ body{
     margin: 5px auto;
 }
 .five-images{
-    width: 1001px;
     height: 274px;
     margin: 5px auto;
+    width: 1013px;
+    padding-left: 5px;
+
 }
 .image-part{
-    display: inline-block;
-    width: 174px;
+    float: left;
+    width: 19%;
     height: 267px;
-    margin-right: 19px;
+    margin: 0 5px auto
 }
 .five-images:hover{
     cursor: pointer;
@@ -276,6 +290,7 @@ body{
 }
 .text-part{
     width: 1001px;
+    height: 255px;
     margin: 5px auto;
 }
 .foot{
@@ -316,21 +331,23 @@ body{
 }
 .foot-end{
     width: 1001px;
-    height: auto;
     font: normal 12px/22px å®‹ä½“;
     color: rgb(0,70,142);
 }
 #foot-image-red{
-    float: left;
-}
-.text-home{
     display: inline-block;
-    margin-left: 100px;
+    height: 80px;
 }
 #foot-text{
-    float: left;
-    display: contents;
+    display: inline-block;
+    width: 750px;
+    height: 60px;
+    line-height: 50px;
 }
+.text-home{
+     display: inline-block;
+     margin-left: 100px;
+ }
 .text-phone{
     display: inline-block;
     margin-left: 60px;
@@ -349,7 +366,7 @@ body{
 }
 #foot-image-error{
     display: inline-block;
-    padding-left: 150px;
+    height: 80px;
 }
 #foot-image-red:hover{
     cursor: pointer;
