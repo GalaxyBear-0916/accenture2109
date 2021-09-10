@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="home.css"/>
+	<meta charset="UTF-8">
+	<title>大连市农业农村局</title>
+</head>
+<body>
+	<!--选项卡-->
+	<div class="tabs margin">
+		<div class="tab">首页</div>
+		<div class="tab">政务公开</div>
+		<div class="tab">农业发展</div>
+		<div class="tab">办事服务</div>
+		<div class="tab">公众参与</div>
+		<div class="tab">法制建设</div>
+		<div style="clear: both"></div>
+	</div>
+
+	<!--时间-->
+	<div class="times margin">
+<!--		<div class="time">2021年9月8日星期三16:14:08</div>-->
+		<div class="time" onload="disptime()"><p id="myclock"></p></div>
+		<div class="time-title">
+			<marquee scrolldelay="200" onmouseover="this.stop();" onmouseout="this.start();" >重温信息公开条例 助推治理能力提升</marquee>
+		</div>
+		<div class="time-details">
+			<input class="time-input" type="text">
+			<div class="time-button">
+				<img src="../../img/seach22.gif">
+			</div>
+			<div style="clear: both"></div>
+		</div>
+	</div>
+
+	<!--轮播图-->
+	<div class="slide">
+		<!--图片-->
+		<div class="slide-image">
+			<img class="slide-image" src="../../img/home.jpg">
+		</div>
+		<!--文字-->
+		<div class="slide-text">
+			<div class="slide-text-body">
+				<div class="slide-text-title">大连一新部门挂牌成立！</div>
+				<div class="slide-text-des"></div>
+			</div>
+			<div class="slide-text-body">
+				<div class="slide-text-title">市农业农村局组织开展2021年渔业安全月宣传暨应急演练活动</div>
+				<div class="slide-text-des">为进一步提高渔区群众安全生产意识和海上自救互救能力，提升渔业应急救援队伍...</div>
+			</div>
+			<div class="slide-text-body">
+				<div class="slide-text-title">全面深化政务公开 持续推进行政决策和政务服务阳光运行</div>
+				<div class="slide-text-des">大连市人民政府市长 陈绍旺（2021年5月15日）今天是我省第十五个“政务公开日...</div>
+			</div>
+			<div class="slide-text-body">
+				<div class="slide-text-title">找政府办事还有哪些烦心事？国务院请你说两句</div>
+				<div class="slide-text-des"></div>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+	</div>
+
+	<!--动态-->
+	<div class="box">
+		<!--文字-->
+		<div class="left">
+			<div class="text-left float-left">
+				<div class="text-head" >
+					<div class="current">工作状态</div>
+				</div>
+				<div class="text-body-list">
+					<div class="text-more">更多</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">市农业农村局开展节能宣传周活动</div>
+								<div class="text-body-date">[07-28]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">全国节能宣传周——绿色低碳主题系</div>
+								<div class="text-body-date">[08-26]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">全国节能宣传周——绿色低碳主题系</div>
+								<div class="text-body-date">[06-13]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">市农业农村局组织召开全市农业产业</div>
+								<div class="text-body-date">[08-14]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">市农业农村局召开迎接国务院防止耕</div>
+								<div class="text-body-date">[07-22]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">市政协对我市增殖放流工作开展专题</div>
+								<div class="text-body-date">[06-11]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">我市召开“治违禁 控药残 促提升”</div>
+								<div class="text-body-date">[08-28]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-right float-right">
+				<div class="text-head-rt" >
+					<div class="current-rt-one">通知公告</div>
+					<div class="current-rt-two">农业农村局文件</div>
+				</div>
+				<div class="text-body-list">
+					<div class="text-more">更多</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">大连市公共机构节能倡议书</div>
+								<div class="text-body-date">[07-28]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">大连市农业农村局节能减排倡议书</div>
+								<div class="text-body-date">[08-26]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">关于征求大连市2021年农机深松整</div>
+								<div class="text-body-date">[06-13]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">市农业农村局组织召开全市农业产业</div>
+								<div class="text-body-date">[08-14]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">市农业农村局召开迎接国务院防止耕</div>
+								<div class="text-body-date">[07-22]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">市政协对我市增殖放流工作开展专题</div>
+								<div class="text-body-date">[06-11]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="text-body-line">
+						<div class="text-body-details">
+							<div class="text-body">
+								<div class="text-body-title">我市召开“治违禁 控药残 促提升”</div>
+								<div class="text-body-date">[08-28]</div>
+								<div style="clear: both"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+		<!--图片-->
+		<div class="right">
+			<div class="images">
+				<img src="../../img/lssc01.png" />
+			</div>
+			<div class="images">
+				<img src="../../img/xczx01.png" />
+			</div>
+			<div class="images">
+				<img src="../../img/xmsy01.png" />
+			</div>
+			<div class="images">
+				<img src="../../img/yzyy01.png" />
+			</div>
+		</div>
+	</div>
+
+	<!--图片-->
+	<div class="image">
+		<img src="../../img/zonghezhifa.jpg">
+	</div>
+	<div class="five-images">
+		<div class="image-part">
+			<img src="../../img/ncrj02.png">
+		</div>
+		<div class="image-part">
+			<img src="../../img/xxjjzt02.png">
+		</div>
+		<div class="image-part">
+			<img src="../../img/mlxcj02.png">
+		</div>
+		<div class="image-part">
+			<img src="../../img/clz02.png">
+		</div>
+		<div class="image-part">
+			<img src="../../img/njbt02.png">
+		</div>
+		<div style="clear: both"></div>
+	</div>
+
+	<!--文字-->
+	<div class="text-part">
+		<div class="text-left float-left">
+			<div class="text-head" >
+				<div class="current">区县风采</div>
+			</div>
+			<div class="text-body-list">
+				<div class="text-more">更多</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市农业农村局开展节能宣传周活动</div>
+							<div class="text-body-date">[07-28]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">全国节能宣传周——绿色低碳主题系</div>
+							<div class="text-body-date">[08-26]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">全国节能宣传周——绿色低碳主题系</div>
+							<div class="text-body-date">[06-13]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市农业农村局组织召开全市农业产业</div>
+							<div class="text-body-date">[08-14]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市农业农村局召开迎接国务院防止耕</div>
+							<div class="text-body-date">[07-22]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市政协对我市增殖放流工作开展专题</div>
+							<div class="text-body-date">[06-11]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">我市召开“治违禁 控药残 促提升”</div>
+							<div class="text-body-date">[08-28]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-left float-left">
+			<div class="text-head" >
+				<div class="current">媒体聚焦</div>
+			</div>
+			<div class="text-body-list">
+				<div class="text-more">更多</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市农业农村局开展节能宣传周活动</div>
+							<div class="text-body-date">[07-28]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">全国节能宣传周——绿色低碳主题系</div>
+							<div class="text-body-date">[08-26]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">全国节能宣传周——绿色低碳主题系</div>
+							<div class="text-body-date">[06-13]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市农业农村局组织召开全市农业产业</div>
+							<div class="text-body-date">[08-14]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市农业农村局召开迎接国务院防止耕</div>
+							<div class="text-body-date">[07-22]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市政协对我市增殖放流工作开展专题</div>
+							<div class="text-body-date">[06-11]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">我市召开“治违禁 控药残 促提升”</div>
+							<div class="text-body-date">[08-28]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-left float-left">
+			<div class="text-head" >
+				<div class="current">三农要闻</div>
+			</div>
+			<div class="text-body-list">
+				<div class="text-more">更多</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市农业农村局开展节能宣传周活动</div>
+							<div class="text-body-date">[07-28]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">全国节能宣传周——绿色低碳主题系</div>
+							<div class="text-body-date">[08-26]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">全国节能宣传周——绿色低碳主题系</div>
+							<div class="text-body-date">[06-13]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市农业农村局组织召开全市农业产业</div>
+							<div class="text-body-date">[08-14]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市农业农村局召开迎接国务院防止耕</div>
+							<div class="text-body-date">[07-22]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">市政协对我市增殖放流工作开展专题</div>
+							<div class="text-body-date">[06-11]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-body-line">
+					<div class="text-body-details">
+						<div class="text-body">
+							<div class="text-body-title">我市召开“治违禁 控药残 促提升”</div>
+							<div class="text-body-date">[08-28]</div>
+							<div style="clear: both"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--页尾-->
+	<div class="foot">
+		<div class="foot-first">
+			<div class="friend">
+				<div class="foot-select">友情链接</div>
+				<select>
+					<option>中央和国家部委网站</option>
+					<option>农业农村部</option>
+					<option>中国农业科学院</option>
+				</select>
+			</div>
+			<div class="friend">
+				<select>
+					<option>行业网站</option>
+					<option>喜羊羊与灰太狼</option>
+					<option>开心超人</option>
+					<option>中国畜牧兽医信息网</option>
+				</select>
+			</div>
+			<div class="friend">
+				<select>
+					<option>省(市)政府网站</option>
+					<option>辽宁省人民政府</option>
+					<option>辽宁省农村农业厅</option>
+					<option>大连市市政府</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="foot-body">
+			<div class="foot-body-text"> 联系我们</div>
+			<div class="foot-body-text"> | </div>
+			<div class="foot-body-text"> 法律声明</div>
+			<div class="foot-body-text"> | </div>
+			<div class="foot-body-text"> 网站地图</div>
+			<div class="foot-body-text"> | </div>
+			<div class="foot-body-text"> 收藏本站</div>
+		</div>
+
+		<div class="foot-end">
+			<div id="foot-image-red">
+				<img src="../../img/red.png">
+			</div>
+			<div id="foot-text">
+				<div class="text-home">主办：大连市农业农村局</div>
+				<div class="text-phone">业务咨询电话:0411-8688133</div>
+				<div class="text-place">地址:大连市西岗区新开路87号 邮编116011</div>
+				<div class="text-number">政府网站标识码：2102000063	辽ICP备2020013776号</div>
+				<div class="text-security">公安备案号：21020302000159</div>
+			</div>
+			<div id="foot-image-error">
+				<img src="../../img/jiucuo.png">
+			</div>
+			<div style="clear: both"></div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+<script type="text/javascript">
+	function disptime(){
+		var today = new Date();
+		var weekday=new Array(7)
+		weekday[0]="星期天"
+		weekday[1]="星期一"
+		weekday[2]="星期二"
+		weekday[3]="星期三"
+		weekday[4]="星期四"
+		weekday[5]="星期五"
+		weekday[6]="星期六"
+		var yyyy = today.getFullYear();
+		var MM = today.getMonth()
+		var DD = today.getDay()
+		var hh = today.getHours();
+		var mm = today.getMinutes();
+		var ss = today.getSeconds();
+		document.getElementById("myclock").innerHTML=yyyy+"年"+MM+"月"+DD+"日"+weekday[DD]+hh+":"+mm+":"+ss
+	}
+	var mytime = setInterval("disptime()");
+</script>
