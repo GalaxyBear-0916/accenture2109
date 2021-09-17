@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+
+  .top {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 20vw;
+
+    img {
+      position: absolute;
+      height: 20vw;
+      width: 100%;
+    }
+
+    div {
+      height: 16vw;
+    }
+  }
+
+  .img-favourite {
+    float: right;
+    margin-top: 2vw;
+    width: 15vw;
+    top: 0;
+    right: 5vh;
+
+    img {
+      width: 8vw;
+      height: 8vh;
+    }
+  }
+
+  .img-favourite:hover {
+    cursor: pointer;
+  }
+
+  .img-nearest {
+    float: right;
+    margin-top: 2vw;
+    width: 13vw;
+    top: 0;
+    right: 0;
+
+    img {
+      width: 8vw;
+      height: 8vh;
+    }
+  }
+
+  .img-nearest:hover {
+    cursor: pointer;
+  }
+
+  .select {
+    display: flex;
+    width: 100vw;
+    height: 13vw;
+    padding-top: 2vw;
+
+    .city {
+      height: 13vw;
+      width: 35vw;
+      line-height: 13vw;
+      text-align: center;
+      font-size: 37px;
+      font-weight: initial;
+    }
+
+    .input {
+      width: 65vw;
+
+      input {
+        height: 12vw;
+        width: 60vw;
+        border: groove;
+        border-radius: 1vw;
+        font-size: 4vw;
+      }
+
+      input:focus {
+        outline: gray;
+      }
+
+      img {
+        width: 10vw;
+        height: 10vw;
+      }
+    }
+  }
+
+  .body-company{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    padding-top: 1vw;
+    flex-direction: column;
+    .company{
+      height: 13vw;
+      padding-left: 5vw;
+      line-height: 13vw;
+      font-size: 40px;
+      border-bottom: groove;
+      border-block-width: 0.3vw;
+    }
+  }
+}

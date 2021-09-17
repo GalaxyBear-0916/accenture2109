@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="choose.css">
+    <meta charset="UTF-8">
+    <title>透明车间</title>
+</head>
+<body>
+<div class="top">
+    <img src="../../../img/phone/logobeifen2.png"/>
+    <div class="img-favourite">
+        <img src="../../../img/phone/favourite.svg">
+    </div>
+    <div class="img-nearest">
+        <img src="../../../img/phone/nearest.svg">
+    </div>
+</div>
+<div class="body">
+    <img src="../../../img/phone/bg-touming.png"/>
+    <div class="text title">星徽透明车间</div>
+    <div class="line-one z-index">
+        <div class="number">车牌号</div>
+        <div class="color" onclick="block()">
+            <div id="place">京</div>
+            <div class="solid"></div>
+        </div>
+        <div class="input">
+            <div class="text">
+                <input type="text" placeholder="填写您的车牌号">
+            </div>
+        </div>
+    </div>
+    <div class="line-two z-index">
+        <div class="number">4 S 店</div>
+        <div class="place">
+            <div class="company">北京德奥达汽车进出口有限公司</div>
+        </div>
+    </div>
+    <div class="select">
+        <div id="select-button">查询</div>
+    </div>
+</div>
+<div class="foot-mark" id="foot">
+    <div class="foot">
+        <div class="line" id="for-div"></div>
+    </div>
+</div>
+</body>
+<script>
+    function div() {
+        var title = document.getElementById("for-div");
+        var arr = ['黑', '吉', '辽', '津', '京', '冀', '蒙', '苏', '沪', '啊', '说', '都',
+            '发', '个', '额', '哇', '从', '还', '对', '会', '四', '并', '若', '被', '加', '锕',
+            '或', '靠', '并', '该', '年', '三'];
+
+        for (var i = 0; i < arr.length; i++) {
+            var div = document.createElement('div')
+            var text = document.createTextNode(arr[i]);
+            div.appendChild(text);
+            div.addEventListener("click", function (event) {
+                var currentText = event.target.innerText;
+                var place = document.getElementById("place");
+                place.innerText = currentText;
+            });
+            title.appendChild(div);
+        }
+    }
+
+    div();
+
+    var foot;
+    window.onload = function () {
+        foot = document.getElementById('foot')
+        foot.onclick = function () {
+            this.style.display = "none";
+        }
+
+    }
+
+    function block() {
+        foot.style.display = "block";
+    }
+
+
+</script>
+</html>

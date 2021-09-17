@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Element/Item/Tag/Nearest</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Element/Item/Tag/Nearest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.00125003,12.6700001 C5.33375001,9.69738629 4,7.47446961 4,6.00125003 C4,3.79142066 5.79142066,2 8.00125003,2 C10.2110794,2 12.0025001,3.79142066 12.0025001,6.00125003 C12.0025001,7.47446961 10.66875,9.69738629 8.00125003,12.6700001 Z M8.00125003,8.00187504 C9.10616471,8.00187504 10.001875,7.10616471 10.001875,6.00125003 C10.001875,4.89633534 9.10616471,4.00062501 8.00125003,4.00062501 C6.89633534,4.00062501 6.00062501,4.89633534 6.00062501,6.00125003 C6.00062501,7.10616471 6.89633534,8.00187504 8.00125003,8.00187504 Z M5,10 L6,11.3000002 L4.5,14 L2,14 L5,10 Z M11,10 L14,14 L11.5,14 L10,11.3000002 L11,10 Z" id="Combined-Shape" fill="#666666"></path>
+    </g>
+</svg>
