@@ -23,7 +23,6 @@ body {
   body .all .img-nearest {
     float: right;
     margin-top: 2vw;
-    margin-left: 72vw;
     width: 13vw;
     top: 0;
     right: 0; }
@@ -67,10 +66,10 @@ body {
     body .body-place .left {
       display: flex;
       flex-direction: column;
-      width: 90vw;
+      width: 88vw;
       margin-right: 2.3vw; }
       body .body-place .left .head {
-        width: 98%;
+        width: 88vw;
         line-height: 13vw;
         font-size: 55px;
         border-block-width: 0.3vw;
@@ -105,6 +104,9 @@ body {
         background-color: white; }
       body .body-place .right div:hover {
         cursor: pointer; }
+    body .body-place .right2 {
+      position: inherit;
+      margin-left: 1.1vw; }
   body .body-company {
     display: flex;
     width: 100vw;

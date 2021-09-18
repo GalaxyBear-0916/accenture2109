@@ -31,7 +31,7 @@
     </div>
 
     <div class="body-place" v-if="!isCompany">
-        <div class="left">
+        <div class="left" ref="scrollOne">
             <div v-for="(city,index) in places" :id="index" v-bind:class="classHead">
                 <div id="title">{{city.title}}</div>
                 <div v-for="value in city.city" v-bind:class="classBody"
@@ -39,9 +39,8 @@
                     {{value.value}}
                 </div>
             </div>
-
         </div>
-        <div class="right">
+        <div class="right" v-bind:class="changeRight">
             <div v-for="(placesTitle,index) in allPlaces">
                 <a :href="`#${index}`">{{placesTitle.title}}</a>
             </div>
@@ -336,12 +335,26 @@
             currentDealer: null,
             cityName: '',
             searchInput: '',
+            changeRight:'',
         },
         beforeMount() {
             this.places = this.allPlaces;
         },
-
+        mounted() {
+            window.addEventListener("scroll",this.handleScroll);
+        },
         methods: {
+            handleScroll: function () {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+                //
+                // console.log(scrollTop)
+                if (scrollTop > 360) {
+                    //滚动大于0的时候要做的操作
+                    this.changeRight = 'right2'
+                }else if(scrollTop < 360){
+                    this.changeRight = ''
+                }
+            },
             findCompany: function (cityId, cityName) {
                 this.isCompany = true;
                 this.currentDealer = cityId;
@@ -360,12 +373,10 @@
             },
 
             findCity: function () {
-                var _this = this;
                 this.places = [];
                 var searchInput = this.searchInput;
                 for (let i = 0; i < this.allPlaces.length; i++) {
-                    let city = this.allPlaces[i].city.filter(function wwe(item) {
-                        _this.searchInput
+                    let city = this.allPlaces[i].city.filter(function (item) {
                         return item.value.indexOf(searchInput) > -1;
                     })
                     if (city.length > 0) {

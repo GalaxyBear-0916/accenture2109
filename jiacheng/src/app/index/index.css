@@ -107,7 +107,7 @@ body{
 .slide-text-body:hover{
     border-left: solid #ff5a00 3px;
     color: #ff5a00;
-    background-image: url(../../img/home/dot.png);
+    background-image: url(../../img/index/dot.png);
     background-position: 0;
     background-repeat: no-repeat;
 }
@@ -274,7 +274,6 @@ body{
     margin: 5px auto;
     width: 1013px;
     padding-left: 5px;
-
 }
 .image-part{
     float: left;
