@@ -98,6 +98,12 @@ body {
         font-size: 4vw;
         font-weight: 900;
         border-bottom: 0.1vh solid #5f5f5f; }
+        body .body .line-two .company a {
+          text-decoration: none; }
+        body .body .line-two .company a:link {
+          color: black; }
+        body .body .line-two .company a:visited {
+          color: black; }
       body .body .line-two .line {
         overflow: hidden;
         margin-top: 6vw;

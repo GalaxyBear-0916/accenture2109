@@ -4,7 +4,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <link rel="stylesheet" type="text/css" href="phone.css"/>
     <meta charset="UTF-8">
-    <title>透明车间</title>
+    <title>选择区域与供应商</title>
 </head>
 <body>
 <div id="vue">
@@ -48,10 +48,10 @@
     </div>
     <div class="body-company" v-if="isCompany">
         <template v-for="dealer in dealerList[currentDealer]">
-            <div v-bind:class="classCompany">{{dealer.text}}</div>
+            <div v-bind:class="classCompany" v-on:click="jump">{{dealer.text}}</div>
         </template>
         <!--        <template v-for="dealer in dealerListById">-->
-        <!--            <div v-bind:class="classCompany" v-bind:companyId="dealer.id">{{dealer.text}}</div>-->
+        <!--            <div v-bind:class="classCompany" v-bind:companyId="dealer.id">{{dealer.test}}</div>-->
         <!--        </template>-->
     </div>
 
@@ -300,6 +300,9 @@
                     {id: 'a22', text: '北京22之星'},
                     {id: 'a22', text: '北京22之星'},
                 ],
+                23: [
+                    {id: 'a22', text: '北京德奥达汽车进出口有限公司'},
+                ]
             },
             dealerList2: [
                 {
@@ -336,6 +339,7 @@
             cityName: '',
             searchInput: '',
             changeRight:'',
+            dealerName:'',
         },
         beforeMount() {
             this.places = this.allPlaces;
@@ -344,6 +348,11 @@
             window.addEventListener("scroll",this.handleScroll);
         },
         methods: {
+            jump: function (item){
+                this.dealerName = item.target.innerText
+                location.href='../../../chooseplace/choose.html'
+                window.localStorage.setItem('name',this.dealerName)
+            },
             handleScroll: function () {
                 let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
                 //
@@ -372,20 +381,36 @@
                 this.cityName = '';
             },
 
+            // findCity: function () {
+            //     this.places = [];
+            //     let searchInput = this.searchInput;
+            //     for (let i = 0; i < this.allPlaces.length; i++) {
+            //         let city = this.allPlaces[i].city.filter(function (item) {
+            //             return item.value.indexOf(searchInput) > -1;
+            //         })
+            //         if (city.length > 0) {
+            //             this.places.push({
+            //                 title: this.allPlaces[i].title,
+            //                 city: city
+            //             })
+            //         }
+            //     }
+            // },
+
             findCity: function () {
                 this.places = [];
-                var searchInput = this.searchInput;
-                for (let i = 0; i < this.allPlaces.length; i++) {
-                    let city = this.allPlaces[i].city.filter(function (item) {
-                        return item.value.indexOf(searchInput) > -1;
+                let searchInput = this.searchInput;
+                this.allPlaces.forEach((item, index) => {
+                    let city = this.allPlaces[index].city.filter((e) => {
+                        return e.value.indexOf(searchInput) > -1;
                     })
-                    if (city.length > 0) {
+                    if(city.length > 0){
                         this.places.push({
-                            title: this.allPlaces[i].title,
+                            title: this.allPlaces[index].title,
                             city: city
                         })
                     }
-                }
+                })
             },
         }
     });

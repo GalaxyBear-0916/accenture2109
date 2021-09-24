@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="pinyin-match/dist/main.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/formate.js"></script>
+</head>
+<body>
+
+</body>
+<script>
+    var arr = [], serarchWord = inputWord.replace(/'/, "")
+
+    allTaxCityData.forEach((item, index) => {
+        if (item.indexOf(searchWord) != -1
+
+            || formate.getFullChars(item).toLowerCase().indexOf(searchWord) != -1
+
+            || formate.getCamelChars(item).toLowerCase().indexOf(searchWord) != -1) {
+            arr.push(item)
+
+        }
+
+    })
+</script>
+</html>

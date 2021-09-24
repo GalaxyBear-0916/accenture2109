@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="//unpkg.com/vue/dist/vue.js"></script>
+    <script src="//unpkg.com/element-ui@2.15.6/lib/index.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <template>
+<!--        <el-button type="test" v-on:click="open">点击打开 Message Box</el-button>-->
+        <div v-on:click="open">a</div>
+    </template>
+</div>
+</body>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+
+        },
+        methods: {
+            open: function (){
+                const h = this.$createElement;
+                this.$msgbox({
+                    message: h('p', null, [
+                        h('span', null, '是否要拨打电话？'),
+                    ]),
+                    showCancelButton: true,
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消',
+                    beforeClose: (action, instance, done) => {
+                        if (action === 'confirm') {
+                            instance.confirmButtonLoading = true;
+                            instance.confirmButtonText = '正在呼叫...';
+                            setTimeout(() => {
+                                done();
+                                setTimeout(() => {
+                                    instance.confirmButtonLoading = false;
+                                }, 300);
+                            }, 3000);
+                        } else {
+                            done();
+                        }
+                    }
+                }).then(action => {
+                    this.$message({
+                        type: 'info',
+                        message: 'action: ' + action
+                    });
+                });
+            }
+        }
+    })
+</script>
+</html>

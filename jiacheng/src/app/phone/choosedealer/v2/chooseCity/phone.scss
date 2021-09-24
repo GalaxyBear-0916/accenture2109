@@ -175,6 +175,15 @@ body {
       font-size: 40px;
       border-bottom: groove;
       border-block-width: 0.3vw;
+      a{
+        text-decoration:none;
+      }
+      a:link{
+        color: black;
+      }
+      a:visited{
+        color: black;
+      }
     }
   }
 }

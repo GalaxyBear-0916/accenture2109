@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="drawing"></canvas>
+<br>
+<div id="app">
+    <button v-on:click="aaa">snsnsns</button>
+</div>
+<br>
+<div>
+    <form id="form1">
+        <input type="text" placeholder="name" value="zhangsan" >
+        <input type="text" placeholder="age" value="13">
+        <textarea name="a" id="a" cols="30" rows="10" maxlength="2">asfawfewf</textarea>
+        <button>提交</button>
+        <input type="reset" name="重置">
+    </form>
+</div>
+</body>
+<script>
+
+
+    var drawing = document.getElementById("drawing")
+    if (drawing.getContext) {
+        let context = drawing.getContext("2d");
+
+        context.shadowOffsetX = 10;
+        context.shadowOffsetY = 10;
+        context.shadowBlur = 4;
+        context.shadowColor = 'rgba(0,0,0,0.5)'
+        context.fillStyle = '#ff0000';
+        context.fillRect(10, 10, 50, 50);
+
+        let gradient = context.createLinearGradient(30,30,70,70);
+        gradient.addColorStop(0,'white');
+        gradient.addColorStop(1,'blue');
+
+        context.fillStyle = 'rgba(0,0,255,0.5)';
+        context.fillRect(30, 30, 50, 50);
+
+        context.fillStyle = gradient;
+        context.fillRect(30, 30, 50, 50);
+
+        context.strokeStyle = 'black';
+        context.strokeRect(30,30,30,30);
+
+        context.clearRect(35,35,20,20)
+
+
+
+        let contextR = drawing.getContext('2d');
+
+        contextR.beginPath();
+
+        contextR.arc(100,100,99,0,2 * Math.PI, false);
+
+        contextR.moveTo(194,100);
+        contextR.arc(100,100,94,0,2 * Math.PI, false);
+
+        contextR.translate(100,100);
+        contextR.rotate(1);
+
+        contextR.moveTo(0,0);
+        contextR.lineTo(0,-85);
+
+        contextR.moveTo(0,0);
+        contextR.lineTo(-65,0);
+
+        contextR.stroke();
+
+        contextR.font = "bold 14px Arial"
+        contextR.textAlign = "center"
+        contextR.textBaseline = "middle"
+        contextR.fillText("12",100,15)
+
+
+        let gradient1 = createRectLinearGradient(context,30,30,50,50);
+
+        gradient1.addColorStop(0,'white');
+        gradient1.addColorStop(1,'pink');
+
+        context.fillStyle = gradient1;
+        context.fillRect(30,30,50,50);
+
+    }
+    var app = new Vue({
+        el:"#app",
+        data: {
+            a:{
+                1:[{id:11,name:'11a'},{id:12,name:'12a'},{id:13,name:'12b'}],
+                2:[{id:21,name:'21a'},{id:22,name:'22a'}],
+                3:[{id:31,name:'31a'},{id:32,name:'32a'}],
+            },
+            b:[
+                {id:1,name:"a"},
+                {id:2,name:"b"},
+                {id:3,name:"c"}
+            ],
+        },
+        methods: {
+            aaa: function (){
+                console.log(this.a[3][1].name)
+                // console.log(this.b[0].name)
+            }
+        }
+    })
+</script>
+</html>

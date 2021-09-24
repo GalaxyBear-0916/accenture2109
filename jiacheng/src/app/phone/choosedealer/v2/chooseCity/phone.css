@@ -119,5 +119,11 @@ body {
       font-size: 40px;
       border-bottom: groove;
       border-block-width: 0.3vw; }
+      body .body-company .company a {
+        text-decoration: none; }
+      body .body-company .company a:link {
+        color: black; }
+      body .body-company .company a:visited {
+        color: black; }
 
 /*# sourceMappingURL=phone.css.map */
