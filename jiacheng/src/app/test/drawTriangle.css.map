@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAU;EACR,WAAW,EAAE,sBAAsB;EACnC,YAAY,EAAE,sBAAsB;EACpC,aAAa,EAAE,oBAAoB;EACnC,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,SAAS,EAAE,cAAc",
+"sources": ["drawTriangle.scss"],
+"names": [],
+"file": "drawTriangle.css"
+}

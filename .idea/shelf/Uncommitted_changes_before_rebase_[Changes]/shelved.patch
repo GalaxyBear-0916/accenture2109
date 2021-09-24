@@ -1,0 +1,111 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1631257848272)
++++ b/.idea/workspace.xml	(date 1631257848272)
+@@ -0,0 +1,100 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="a8442585-72d0-42da-915d-a4b08eb0898c" name="Changes" comment="2021/09/10">
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectId" id="1xszmAH7rci2YggmO5WGh2i9hku" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/jiacheng/css" />
++    <property name="vue.rearranger.settings.migration" value="true" />
++  </component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\img" />
++      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app\home" />
++      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app" />
++      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app\css" />
++      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src" />
++    </key>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="a8442585-72d0-42da-915d-a4b08eb0898c" name="Changes" comment="" />
++      <created>1631158740143</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1631158740143</updated>
++      <workItem from="1631158741324" duration="112000" />
++      <workItem from="1631160762859" duration="2278000" />
++      <workItem from="1631170938379" duration="24136000" />
++      <workItem from="1631235902420" duration="16761000" />
++    </task>
++    <task id="LOCAL-00001" summary="2021/09/10">
++      <created>1631241333169</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1631241333169</updated>
++    </task>
++    <task id="LOCAL-00002" summary="2021/09/10">
++      <created>1631256471400</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1631256471400</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="jiacheng" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="2021/09/10" />
++    <option name="LAST_COMMIT_MESSAGE" value="2021/09/10" />
++  </component>
++</project>
+\ No newline at end of file
