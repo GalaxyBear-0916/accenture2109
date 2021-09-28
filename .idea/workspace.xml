@@ -1,35 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8442585-72d0-42da-915d-a4b08eb0898c" name="Changes" comment="09/18">
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v1/.sass-cache/dddd365817f5090eaff953ec0bf4d31da51c345c/condition.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/.sass-cache/07794d0f179c0e8654135e6a5075df4c92dc1fe1/condition.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/condition.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/condition.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/.sass-cache/7f90785dbbee0a5d4dd5df8f1545fb8018aae6aa/phone.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/.sass-cache/a54bd469e551971ec4976704c4362a3b0cfc89d5/choose.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/test/baiduAPI.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/test/drawTriangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/test/drawTriangle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/test/element01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/test/form&amp;canvasTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/test/getCoordinates.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/test/js/formate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/test/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/test/search2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/Vue/text01.html" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/Vue/vue-test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/Vue/vue1.html" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/Vue/vue1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/Vue/vue2.html" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/Vue/vue2.html" afterDir="false" />
+    <list default="true" id="a8442585-72d0-42da-915d-a4b08eb0898c" name="Changes" comment="09/24">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jiacheng_b_liu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/Vue/day01/day01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/Vue/day02/day02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/Vue/day06/day06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiacheng/src/app/test/dom01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/.sass-cache/07794d0f179c0e8654135e6a5075df4c92dc1fe1/condition.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/.sass-cache/07794d0f179c0e8654135e6a5075df4c92dc1fe1/condition.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/condition.css" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/condition.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/condition.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/condition.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/condition.html" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/condition.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/condition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2/condition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/.sass-cache/7f90785dbbee0a5d4dd5df8f1545fb8018aae6aa/phone.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/.sass-cache/7f90785dbbee0a5d4dd5df8f1545fb8018aae6aa/phone.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/phone.css" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/phone.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/phone.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/phone.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/phone.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/phone.scss" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/choosedealer/v2/chooseCity/phone.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/.sass-cache/a54bd469e551971ec4976704c4362a3b0cfc89d5/choose.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/.sass-cache/a54bd469e551971ec4976704c4362a3b0cfc89d5/choose.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/choose.css" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/choose.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/choose.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/choose.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/choose.html" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/choose.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/choose.scss" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/app/phone/chooseplace/choose.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/clz02.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/clz02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/home2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/home2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/home3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/home3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/home4.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/home4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/jiucuo.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/jiucuo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/lssc01.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/lssc01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/mlxcj02.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/mlxcj02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/ncrj02.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/ncrj02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/njbt02.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/njbt02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/seach22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/seach22.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/xczx01.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/xczx01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/xmsy01.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/xmsy01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/xxjjzt02.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/xxjjzt02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiacheng/src/img/index/zonghezhifa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiacheng/src/img/index/zonghezhifa.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,7 +66,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1xwJryNlnJIQvEj3hVy10UQHqJq" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -72,27 +81,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jiacheng/src/app/phone/choosecondition/v2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jiacheng/src/app/Vue" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app\Vue" />
       <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app\phone\choosecondition\v2" />
       <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app\phone\choose\choose.v1" />
       <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app\home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app" />
+      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern" />
+      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app\Vue\day02" />
+      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app\Vue" />
       <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src" />
-      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\text" />
-      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app\phone\text" />
-      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\img\phone" />
+      <recent name="C:\Users\jiacheng.b.liu\WebstormProjects\intern\jiacheng\src\app\Vue\day01" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a8442585-72d0-42da-915d-a4b08eb0898c" name="Changes" comment="2021/09/10" />
@@ -112,7 +122,13 @@
       <workItem from="1632360259955" duration="40368000" />
       <workItem from="1632446115145" duration="8760000" />
       <workItem from="1632455283469" duration="743000" />
-      <workItem from="1632456090759" duration="609000" />
+      <workItem from="1632456090759" duration="10617000" />
+      <workItem from="1632638452156" duration="806000" />
+      <workItem from="1632639751371" duration="21892000" />
+      <workItem from="1632722890872" duration="9922000" />
+      <workItem from="1632797397138" duration="2159000" />
+      <workItem from="1632801722070" duration="344000" />
+      <workItem from="1632806989820" duration="6470000" />
     </task>
     <task id="LOCAL-00001" summary="09/17">
       <created>1631873556498</created>
@@ -128,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631956163135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="09/24">
+      <created>1632462350212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632462350212</updated>
+    </task>
+    <task id="LOCAL-00004" summary="09/24">
+      <created>1632462408013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632462408013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +169,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="jiacheng" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -148,8 +190,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="09/17" />
     <MESSAGE value="09/18" />
-    <option name="LAST_COMMIT_MESSAGE" value="09/18" />
+    <MESSAGE value="09/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="09/24" />
   </component>
 </project>
